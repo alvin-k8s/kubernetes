@@ -1,4 +1,4 @@
-FROM k8s.gcr.io/coredns:1.2.2
+FROM k8s.gcr.io/coredns:1.6.2
 
 MAINTAINER alvin@cyqit.com
 
