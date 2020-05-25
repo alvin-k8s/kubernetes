@@ -1,4 +1,6 @@
-FROM k8s.gcr.io/etcd:3.3.15-0
+FROM gcr.io/etcd-development/etcd:v3.4.9
 
-MAINTAINER alvin@cyqit.com
+EXPOSE 2379 2380
 
+# Define default command.
+CMD ["/usr/local/bin/etcd"]
